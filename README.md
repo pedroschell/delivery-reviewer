@@ -1,4 +1,4 @@
-# qa
+# delivery-reviewer
 
 Um subagente para o Claude Code que **revisa uma implementação já entregue** e devolve um resumo executivo: o que foi feito, a stack usada, uma nota de qualidade, os problemas encontrados e o próximo passo.
 
@@ -26,16 +26,16 @@ Para todos os seus projetos:
 
 ```bash
 mkdir -p ~/.claude/agents
-curl -o ~/.claude/agents/qa.md https://raw.githubusercontent.com/pedroschell/qa/main/qa.md
+curl -o ~/.claude/agents/delivery-reviewer.md https://raw.githubusercontent.com/pedroschell/delivery-reviewer/main/delivery-reviewer.md
 ```
 
-Ou só para um projeto, salvando o arquivo em `.claude/agents/qa.md` dentro dele.
+Ou só para um projeto, salvando o arquivo em `.claude/agents/delivery-reviewer.md` dentro dele.
 
-Depois de terminar uma tarefa, peça *"roda o qa nessa entrega"*.
+Depois de terminar uma tarefa, peça *"roda o delivery-reviewer nessa entrega"*.
 
 ## Combina com
 
-O [orchestrator](https://github.com/pedroschell/orchestrator), que planeja a tarefa antes de começar. O orchestrator planeja, o qa confere.
+O [orchestrator](https://github.com/pedroschell/orchestrator), que planeja a tarefa antes de começar. O orchestrator planeja, o delivery-reviewer confere.
 
 ## Licença
 
