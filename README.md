@@ -1,5 +1,7 @@
 # delivery-reviewer
 
+**Português** | [English](README.en.md)
+
 Um subagente para o Claude Code que **revisa uma implementação já entregue** e devolve um resumo executivo: o que foi feito, a stack usada, uma nota de qualidade, os problemas encontrados e o próximo passo.
 
 Depois de uma feature longa, é difícil saber de cabeça o que mudou e se ficou bom. Este agente lê os arquivos alterados com um olhar de fora e responde sempre no mesmo formato, em cerca de 300 palavras, para qualquer desenvolvedor entender o estado da entrega em um minuto.
